@@ -12,7 +12,7 @@ double overlap(Rect r1, Rect r2){
 		
 		double xmax;
 		if (r1.x > r2.x) xmax = r1.x;
-		elsae xmax = r2.x;
+		else xmax = r2.x;
 		
 		double xmin;
 		if((r1.x + r1.w) < (r2.x + r2.w)) xmin = (r1.x + r1.w);
